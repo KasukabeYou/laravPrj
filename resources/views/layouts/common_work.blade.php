@@ -2,7 +2,7 @@
 <html lang="ja">
     <head>
         <meta charset="utf-8">
-        <link rel="stylesheet" href="{{ secure_asset('css/bs_index.css') }}">
+        <link rel="stylesheet" href="{{ secure_asset('css/index.css') }}">
         <link rel="stylesheet" href="{{ secure_asset('css/bootstrap.min.css') }}">
         <script src="{{ secure_asset('js/jquery-3.4.1.min.js') }}"></script>
         <script src="{{ secure_asset('js/index.js') }}"></script>
