@@ -78,7 +78,7 @@
             <table>
               <tbody>
                 <tr>
-                    <th rowspan="9">機能一覧・実装予定表</th>
+                    <th rowspan="10">機能一覧・実装予定表</th>
                     <td colspan="2">現在勉強中のLaravel・Djangoのうち、Laravelを使った機能を随時更新していきます。</td>
                 </tr>
                 <tr>
@@ -100,6 +100,10 @@
                 <tr>
                     <td>天気情報</td>
                     <td>実装中</td>
+                </tr>
+                <tr>
+                    <td>ぐるなびレストラン情報</td>
+                    <td>実装済み（仮）</td>
                 </tr>
                 <tr>
                     <td>カート機能</td>

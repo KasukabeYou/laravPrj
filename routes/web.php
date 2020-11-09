@@ -48,6 +48,10 @@ Route::group(['middleware'=>'set.locale'], function () {
 Route::get('/weather/index', 'Weather\WeatherController@index')->name('weather.index');
 Route::post('/weather/output', 'Weather\WeatherController@output')->name('weather.output');
 
+// ぐるなび
+Route::get('/gurunavi/index', 'GURUNAVI\GurunaviController@index')->name('gurunavi.index');
+Route::post('/gurunavi/output', 'GURUNAVI\GurunaviController@output')->name('gurunavi.output');
+
 Route::get('/login/{social}', 'Auth\LoginController@socialLogin')->where('social', 'google|facebook|twitter|line');
 Route::get('/login/{social}/callback', 'Auth\LoginController@handleProviderCallback')->where('social', 'google|facebook|twitter|line');
 

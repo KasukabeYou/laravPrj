@@ -10,4 +10,9 @@ return [
     'gmap' => [    
       'api_key' => env('GOOGLE_MAP_API_KEY'),  
     ],
+    'gurunavi' => [
+      'api_key' => env('GURUNAVI_API_KEY'),  
+      'rest_api' => env('GURUNAVI_RESTAURANT_API_URL'),
+      'tdhk_api' => env('GURUNAVI_TDHK_API_URL'),  
+    ],
 ];

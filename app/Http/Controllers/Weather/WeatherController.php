@@ -21,7 +21,6 @@ class WeatherController extends Controller
      */
     public function output(Request $req) {
         // city idを取得
-        //var_dump( getWeather(1859171) );
         $weather = $this->getWeather($req->weather_select);
         \Log::info($weather['city']);
         \Log::info('緯度：'.$weather['city']['coord']['lat'].' 経度：'.$weather['city']['coord']['lon']);

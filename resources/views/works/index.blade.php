@@ -72,8 +72,8 @@
                   <!--    <td><a href="{{ route('top') }}">作成中</a></td>-->
                   <!--</tr>-->
                   <tr>
-                      <th>XXXXX</th>
-                      <td><a href="{{ route('top') }}">作成中</a></td>
+                      <th>ぐるなびAPI</th>
+                      <td><a href="{{ route('gurunavi.index') }}">ぐるなびAPI</a></td>
                   </tr>
               </tbody>
             </table>
