@@ -29,7 +29,7 @@ class GurunaviController extends Controller
         // 都道府県APIより都道府県の情報を取得.
         // $tdhk = $this->curlJson(config('my-app.gurunavi.tdhk_api'),
                         // ['keyid'=>config('my-app.gurunavi.api_key'),'lang'=>'ja']);
-                        
+
         $tdhk = session('tdhk');
         
         \Log::info('セッション確認');

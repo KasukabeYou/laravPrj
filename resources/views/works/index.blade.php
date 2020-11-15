@@ -8,7 +8,7 @@
       <div class="container">
         <div class="alert alert-danger" role="alert">
         　各機能を使用することによるいかなる問題も、当サイトは一切の責任を負いません。<br/>
-        　SNSアカウントなどのご使用の際にはご注意ください。
+        　SNSアカウントなどのご使用の際はご注意ください。
         </div>
         <h3 class="text-center mb-3">@lang('messages.work.list')</h3>
         <div class="card text-center text-dark w-75 mx-auto">
@@ -20,7 +20,7 @@
                       <td>
                         会員登録、会員編集、会員退会、会員一覧、会員詳細が確認出来るようになっております。<br/>
                         ログイン後は会員一覧のリンクに変わり、一覧画面へ遷移後に編集・退会・詳細のリンクがあります。<br/>
-                        会員一覧には今まで登録した会員が全て表示されますので、登録の際にはご注意ください。
+                        会員一覧には今まで登録した会員が全て表示されますので、登録の際はご注意ください。
                       </td>
                   </tr>
                   <tr rowspan="2">

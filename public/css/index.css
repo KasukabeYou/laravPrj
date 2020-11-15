@@ -54,6 +54,19 @@ h1 {
   padding: 10px 15px;
 }
 
+/* ########### ログインボタン ########### */
+.login_aicon img{
+  width: 200px;
+  height: 60px;
+  padding: 2px 0px;
+}
+
+.login_button button {
+  width: 200px;
+  height: 60px;
+  padding: 2px 0px;
+}
+
 /* ########### 問い合わせボタン ########### */
 #contact_us {
   display: inline-block;

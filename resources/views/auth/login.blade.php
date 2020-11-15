@@ -51,34 +51,34 @@
                             </div>
                         </div>
 
-                        <div class="form-group row mb-0">
+                        <div class="form-group row mb-0 login_button">
                             <div class="col-md-8 offset-md-4">
                                 <button type="submit" class="btn btn-primary">
                                     @lang('messages.login')
                                 </button>
 
-                                @if (Route::has('password.request'))
-                                    <a class="btn btn-link" href="{{ route('password.request') }}">
-                                        {{ __('Forgot Your Password?') }}
-                                    </a>
-                                @endif
+                                <!--@if (Route::has('password.request'))-->
+                                <!--    <a class="btn btn-link" href="{{ route('password.request') }}">-->
+                                <!--        {{ __('Forgot Your Password?') }}-->
+                                <!--    </a>-->
+                                <!--@endif-->
                             </div>
                         </div>
                     </form>
-                    <div class="form-group row mt-2">
+                    <div class="form-group row mt-2 login_aicon">
                         <div class="col-md-8 offset-md-4">
-                            <a href="/login/google" class="btn btn-secondary" role="button">
-                                Google Login
+                            <a href="/login/google">
+                                <img src="../img/btn_google.png" alt="Googleログイン">
                             </a>
                         </div>
                         <div class="col-md-8 offset-md-4">
-                            <a href="/login/twitter" class="btn btn-secondary" role="button">
-                                Twitter Login
+                            <a href="/login/twitter">
+                                <img src="../img/btn_twitter.png" alt="Twitterログイン">
                             </a>
                         </div>
                         <div class="col-md-8 offset-md-4">
-                            <a href="/login/line" class="btn btn-secondary" role="button">
-                                Line Login
+                            <a href="/login/line">
+                                <img src="../img/btn_line.png" alt="Lineログイン">
                             </a>
                         </div>
                     </div>
